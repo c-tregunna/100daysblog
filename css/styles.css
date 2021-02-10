@@ -419,6 +419,12 @@ body {
   align-items: center;
 }
 
+a {
+  color: #643969;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .day_section {
   width: 90%;
   margin: 20px auto;
@@ -426,12 +432,14 @@ body {
   font-size: 1.25em;
   line-height: 24px;
   text-align: justify;
+  background-color: #e3eaee;
+  border-radius: 8px;
 }
 .day_section:nth-child(even) {
-  border-left: 6px solid #7edc7e;
+  border-left: 6px solid #643969;
 }
 .day_section:nth-child(odd) {
-  border-right: 6px solid #7edc7e;
+  border-right: 6px solid #ff7c50;
 }
 
 /*# sourceMappingURL=styles.css.map */

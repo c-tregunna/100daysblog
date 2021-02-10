@@ -1,0 +1,14 @@
+.day_section {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.25em;
+  line-height: 24px;
+  text-align: justify;
+  &:nth-child(even) {
+    border-left: $post_border;
+  }
+  &:nth-child(odd) {
+    border-right: $post_border;
+  }
+}

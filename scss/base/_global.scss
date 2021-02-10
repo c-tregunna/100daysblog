@@ -1,4 +1,6 @@
 body {
-    background-color: grey;
-    font-size: 10em;
+  font-size: 1em;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  padding: 20px;
+  @include flex($dir: column, $just: space-between, $align: center);
 }

@@ -410,8 +410,28 @@ ul {
 }
 
 body {
-  background-color: grey;
-  font-size: 10em;
+  font-size: 1em;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day_section {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 1.25em;
+  line-height: 24px;
+  text-align: justify;
+}
+.day_section:nth-child(even) {
+  border-left: 6px solid #7edc7e;
+}
+.day_section:nth-child(odd) {
+  border-right: 6px solid #7edc7e;
 }
 
 /*# sourceMappingURL=styles.css.map */

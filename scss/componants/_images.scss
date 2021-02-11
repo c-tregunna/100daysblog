@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.day_section_img_wrapper {
+  width: 100%;
+  @include flex($dir: column, $align: center, $just: space-between);
+  @include medq($break-m) {
+    @include flex($dir: row, $align: flex-start);
+  }
+}
+
+figure {
+  margin: 10px;
+  @include medq($break-m) {
+    max-width: 46%;
+  }
+}
+
+figcaption {
+  font-size: 0.85em;
+}

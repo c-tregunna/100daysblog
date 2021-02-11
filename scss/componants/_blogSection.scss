@@ -1,5 +1,9 @@
 .day_section {
-  width: 90%;
+  width: 100%;
+  @include medq($break-m) {
+    width: 90%;
+  }
+  max-width: 1100px;
   margin: 20px auto;
   padding: 20px;
   font-size: 1.25em;

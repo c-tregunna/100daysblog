@@ -423,6 +423,12 @@ body {
   align-items: center;
 }
 
+ul li {
+  list-style-type: circle;
+  margin-left: 40px;
+  padding: 6px;
+}
+
 a {
   color: #ff7c50;
   text-decoration: none;
@@ -435,6 +441,18 @@ a {
 
 code {
   font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: left;
 }
 
 .day_section {

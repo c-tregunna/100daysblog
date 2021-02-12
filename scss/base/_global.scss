@@ -8,3 +8,9 @@ body {
   padding: 20px;
   @include flex($dir: column, $just: space-between, $align: center);
 }
+
+ul li {
+  list-style-type: circle;
+  margin-left: 40px;
+  padding: 6px;
+}

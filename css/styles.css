@@ -500,10 +500,11 @@ img {
 
 figure {
   margin: 10px;
+  max-width: 80%;
 }
 @media (min-width: 768px) {
   figure {
-    max-width: 46%;
+    max-width: 40%;
   }
 }
 

@@ -13,8 +13,9 @@ img {
 
 figure {
   margin: 10px;
+  max-width: 80%;
   @include medq($break-m) {
-    max-width: 46%;
+    max-width: 40%;
   }
 }
 

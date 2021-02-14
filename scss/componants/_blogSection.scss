@@ -13,8 +13,10 @@
   border-radius: 8px;
   &:nth-child(even) {
     border-left: $post_border_even;
+    border-right: $post_border_even;
   }
   &:nth-child(odd) {
     border-right: $post_border_odd;
+    border-left: $post_border_odd;
   }
 }

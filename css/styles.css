@@ -429,6 +429,12 @@ ul li {
   padding: 6px;
 }
 
+ol li {
+  list-style-type: decimal;
+  margin-left: 40px;
+  padding: 6px;
+}
+
 a {
   color: #ff7c50;
   text-decoration: none;
@@ -473,9 +479,11 @@ h6 {
 }
 .day_section:nth-child(even) {
   border-left: 6px solid #643969;
+  border-right: 6px solid #643969;
 }
 .day_section:nth-child(odd) {
   border-right: 6px solid #ff7c50;
+  border-left: 6px solid #ff7c50;
 }
 
 img {
@@ -484,7 +492,8 @@ img {
 }
 
 .day_section_img_wrapper {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

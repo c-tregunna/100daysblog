@@ -4,7 +4,8 @@ img {
 }
 
 .day_section_img_wrapper {
-  width: 100%;
+  width: 80%;
+  margin: auto;
   @include flex($dir: column, $align: center, $just: space-between);
   @include medq($break-m) {
     @include flex($dir: row, $align: flex-start);

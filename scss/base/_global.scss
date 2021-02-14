@@ -11,12 +11,10 @@ body {
 
 ul li {
   list-style-type: circle;
-  margin-left: 40px;
-  padding: 6px;
+  @include listy;
 }
 
 ol li {
   list-style-type: decimal;
-  margin-left: 40px;
-  padding: 6px;
+  @include listy;
 }

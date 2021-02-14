@@ -1,19 +1,24 @@
 @mixin medq($break) {
-    @media (min-width: $break-m) {
-      @content;
-    }
+  @media (min-width: $break-m) {
+    @content;
   }
+}
 
-  @mixin medqL($break) {
-    @media (min-width: $break-l) {
-      @content;
-    }
+@mixin medqL($break) {
+  @media (min-width: $break-l) {
+    @content;
+  }
 }
 
 @mixin flex($disp: flex, $dir: null, $just: null, $align: null) {
-    display: $disp;
-    flex-direction: $dir;
-    justify-content: $just;
-    align-items: $align;
-    @content;
+  display: $disp;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+  @content;
+}
+
+@mixin listy {
+  margin-left: 40px;
+  padding: 6px;
 }

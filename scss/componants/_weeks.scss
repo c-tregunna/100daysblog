@@ -1,0 +1,27 @@
+.weekly_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.week_1 {
+  position: absolute;
+  top: auto;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  @include flex($dir: column, $just: space-between, $align: center);
+}
+
+.hidden {
+  height: auto;
+}
+
+.open_week_1 {
+  width: 60%;
+  text-align: center;
+  font-size: 2rem;
+  border-top: 2px solid #643969;
+  border-bottom: 2px solid #ff7c50;
+  padding: 20px;
+  cursor: pointer;
+}

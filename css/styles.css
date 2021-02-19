@@ -468,7 +468,7 @@ h6 {
   padding: 20px;
   font-size: 1.25em;
   line-height: 24px;
-  text-align: justify;
+  text-align: left;
   background-color: #e3eaee;
   border-radius: 8px;
 }
@@ -519,6 +519,37 @@ figure {
 
 figcaption {
   font-size: 0.85em;
+}
+
+.weekly_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.week_1 {
+  position: absolute;
+  top: auto;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hidden {
+  height: auto;
+}
+
+.open_week_1 {
+  width: 60%;
+  text-align: center;
+  font-size: 2rem;
+  border-top: 2px solid #643969;
+  border-bottom: 2px solid #ff7c50;
+  padding: 20px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */

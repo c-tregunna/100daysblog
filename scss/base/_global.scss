@@ -5,7 +5,7 @@
 body {
   font-size: 1em;
   font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
-  padding: 20px;
+  padding: 20px 20px 100px;
   @include flex($dir: column, $just: space-between, $align: center);
 }
 

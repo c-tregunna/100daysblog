@@ -492,7 +492,7 @@ img {
 }
 
 .day_section_img_wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -510,7 +510,7 @@ img {
 
 figure {
   margin: 10px;
-  max-width: 80%;
+  max-width: 100%;
 }
 @media (min-width: 768px) {
   figure {

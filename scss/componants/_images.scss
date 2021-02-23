@@ -4,7 +4,7 @@ img {
 }
 
 .day_section_img_wrapper {
-  width: 80%;
+  width: 100%;
   margin: auto;
   @include flex($dir: column, $align: center, $just: space-between);
   @include medq($break-m) {
@@ -14,7 +14,7 @@ img {
 
 figure {
   margin: 10px;
-  max-width: 80%;
+  max-width: 100%;
   @include medq($break-m) {
     max-width: 40%;
   }

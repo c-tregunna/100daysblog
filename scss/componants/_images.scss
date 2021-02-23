@@ -8,7 +8,7 @@ img {
   margin: auto;
   @include flex($dir: column, $align: center, $just: space-between);
   @include medq($break-m) {
-    @include flex($dir: row, $align: flex-start);
+    @include flex($dir: row, $align: flex-start, $just: space-around);
   }
 }
 

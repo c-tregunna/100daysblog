@@ -503,6 +503,7 @@ img {
   .day_section_img_wrapper {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: flex-start;
   }
 }
@@ -544,14 +545,21 @@ figcaption {
 
 .open_week_1,
 .open_week_2 {
-  width: 60%;
+  width: 90%;
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1rem;
   border-top: 2px solid #643969;
   border-bottom: 2px solid #ff7c50;
   border-radius: 18px;
   padding: 20px;
   cursor: pointer;
+}
+@media (min-width: 768px) {
+  .open_week_1,
+.open_week_2 {
+    font-size: 1.5rem;
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

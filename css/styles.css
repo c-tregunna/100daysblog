@@ -414,8 +414,8 @@ ul {
 }
 
 body {
-  font-size: 1em;
-  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   padding: 20px 20px 100px;
   display: flex;
   flex-direction: column;

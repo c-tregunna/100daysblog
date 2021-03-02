@@ -15,6 +15,36 @@
     <div class="weekly_wrapper">
         <div class="week_2">
             <section class="day_section">
+                <h3>Day 14</h3>
+                <p>So Type Conversion and Coercion is a little confusing, especially the coercion, and tough to get head around. Definitely a point where you use <code>console.log</code> to really see what you are getting.</p>
+                <p>Lets have a look at some examples. Pop these in your code and view in the console to see the outcome.</p>
+                <div class="day_section_img_wrapper">
+                    <figure>
+                        <img src="images/type_conversion.png" alt="image of code for type conversion">
+                        <figcaption>Type conversion. So here we have manually converted 1991 to a number. However, this is just converting in the <code>console.log</code> and not permanently converted</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/type_coercion.png" alt="image of code for type conversion">
+                        <figcaption>Type coercion. JS will automatically convert from sting to number or number to string. This is a little confusing.</figcaption>
+                    </figure>
+                </div>
+                <p>So lets take a test. What will this output to in the console?</p>
+                <div class="day_section_img_wrapper">
+                    <figure>
+                        <img src="images/type_coercion_test.png" alt="image of code for type conversion">
+                        <figcaption>What will this give us? Took me a while to figure this out, but we need to work through each number and operator one at a time to get the end result</figcaption>
+                    </figure>
+                </div>
+                <div>
+                    <h4 class="reveal">Click to reveal answer</h4>
+                    <div class="answer">
+                        <h2>15</h2>
+                        <p>Why? (10 - 4 = 6) (6 - 3 = 3) (3 - 2 = 1) 1 + 5 = 15 as it converts to a string</p>
+                    </div>
+                </div>
+
+            </section>
+            <section class="day_section">
                 <h3>Day 13</h3>
                 <p>As I have said previosuly, it's a great thing to practice what you are learning, and today I had a code challenge to use the <code>if/else</code> statement.</p>
                 <p>For this challenge I reused the code from the BMI challenge on day 10 and logged to the console a string if one BMI was higher than the other. Simple</p>

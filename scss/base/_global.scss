@@ -18,3 +18,16 @@ ol li {
   list-style-type: decimal;
   @include listy;
 }
+
+.reveal {
+  cursor: pointer;
+}
+.answer {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.show {
+  height: 100px;
+}

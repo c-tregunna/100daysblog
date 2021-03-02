@@ -435,6 +435,20 @@ ol li {
   padding: 6px;
 }
 
+.reveal {
+  cursor: pointer;
+}
+
+.answer {
+  height: 0px;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+.show {
+  height: 100px;
+}
+
 a {
   color: #ff7c50;
   text-decoration: none;

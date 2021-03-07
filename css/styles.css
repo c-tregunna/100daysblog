@@ -541,7 +541,8 @@ figcaption {
   width: 100%;
 }
 
-.week_1 {
+.week_1,
+.week_2 {
   position: absolute;
   top: auto;
   height: 0;
@@ -566,6 +567,7 @@ figcaption {
   border-bottom: 2px solid #ff7c50;
   border-radius: 18px;
   padding: 20px;
+  margin: 20px;
   cursor: pointer;
 }
 @media (min-width: 768px) {

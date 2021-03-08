@@ -23,3 +23,11 @@ h5,
 h6 {
   text-align: left;
 }
+
+i {
+  color: $link;
+  font-size: 1.5em;
+  @include medq($break-m) {
+    font-size: 4em;
+  }
+}

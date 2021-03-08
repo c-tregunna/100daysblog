@@ -1,0 +1,9 @@
+.back_to_top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  @include medq($break-m) {
+    bottom: 10px;
+    right: 10px;
+  }
+}

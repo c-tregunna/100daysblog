@@ -19,6 +19,7 @@ console.log(openWeek);
 openWeek.forEach(open => {
     open.addEventListener('click', () => {
         open.nextElementSibling.firstElementChild.classList.toggle('hidden');
+        console.log(open);
         })
     });
 

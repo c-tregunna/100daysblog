@@ -475,6 +475,16 @@ h6 {
   text-align: left;
 }
 
+i {
+  color: #ff7c50;
+  font-size: 1.5em;
+}
+@media (min-width: 768px) {
+  i {
+    font-size: 4em;
+  }
+}
+
 .day_section {
   width: 100%;
   max-width: 1100px;
@@ -541,9 +551,7 @@ figcaption {
   width: 100%;
 }
 
-.week_1,
-.week_2 {
-  position: absolute;
+.week {
   top: auto;
   height: 0;
   overflow: hidden;
@@ -558,8 +566,7 @@ figcaption {
   height: auto;
 }
 
-.open_week_1,
-.open_week_2 {
+.open {
   width: 90%;
   text-align: center;
   font-size: 1rem;
@@ -571,10 +578,21 @@ figcaption {
   cursor: pointer;
 }
 @media (min-width: 768px) {
-  .open_week_1,
-.open_week_2 {
+  .open {
     font-size: 1.5rem;
     width: 60%;
+  }
+}
+
+.back_to_top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+@media (min-width: 768px) {
+  .back_to_top {
+    bottom: 10px;
+    right: 10px;
   }
 }
 

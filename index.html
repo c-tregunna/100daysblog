@@ -12,6 +12,23 @@
 <body>
     <h1 id="top">100 Days Of Javascript Code</h1>
     <section class="day_section">
+        <h3>Day 16</h3>
+        <p>Today's video was all about equality operators. Actually quite a lot of information in one video so I will try to condense this down.</p>
+        <p>I covered 3 types of operators here</p>
+        <ol>
+            <li><code>===</code> This is the strict equality operator. So it will check is something is exactly something else. Always best to use this one</li>
+            <li><code>==</code> Classed as a loose equality operator. JS will carry out type coercion on this and I'll explain a little more about this in a bit</li>
+            <li><code>!==</code> The not equal operator, or different. Basically is something is NOT equal to something else</li>
+        </ol>
+        <p>This example below is adding a prompt to the screen asking you to pick a favourite number. What you put in to this prompt will become a string. If I used the <code>==</code> operator, this would convert it to a number, but this can sometimes throw up some issues. So the prompt has been converted to a number using <code>number()</code>, so in the example we can use the <code>===</code> to check is something is strictly true.</p>
+        <div class="day_section_img_wrapper">
+            <figure>
+                <img src="images/equlaity.png" alt="image of code producing a if/else statement">
+                <figcaption>If you type 23 to the prompt, you will get the 1st <code>console.log</code>. If you type 7 you will get the second <code>console.log</code> and also the <code>console.log</code> that is in the last <code>if</code> statement as you have not typed 23. Make sense, or has your head exploded yet??? </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="day_section">
         <h3>Day 15</h3>
         <p>Had a few days away for reasons I will not bore you with. Back to it now though. Started off with some Truthy and Falsy information and Javascript converted values to a boolean. Very similar to the last video I guess and kinda easy to understand</p>
         <p>For reference there are 5 falsy values, all will return false there are:</p>
